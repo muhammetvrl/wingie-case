@@ -1,6 +1,6 @@
 "use client";
 import EmployeeCard from '@/src/components/EmployeeCard';
-import { User } from '@/src/context/global-context';
+import { User } from '@/src/ts/types';
 import React, { useEffect, useState } from 'react'
 
 type Props = {

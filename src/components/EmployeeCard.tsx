@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 import React from 'react'
-import { User } from '../context/global-context'
 import { useRouter } from 'next/navigation'
+import { User } from '../ts/types';
 
 export interface IProps {
   id: number,
